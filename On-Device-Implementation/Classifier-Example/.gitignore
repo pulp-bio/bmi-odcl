@@ -1,0 +1,5 @@
+BUILD/
+log.txt
+output_eval.h
+runs.txt
+**/__pycache__/

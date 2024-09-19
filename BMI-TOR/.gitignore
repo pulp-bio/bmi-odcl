@@ -1,0 +1,32 @@
+# ignore OS- and IDE-specific files
+**/.DS_Store
+**/.idea
+
+# ignore build-and-install `setuptools` files
+**/build
+**/dist
+**/*.egg-info
+
+# ignore profiling files
+**/gmon.out
+
+# ignore generated Python bytecode
+**/__pycache__
+
+# ignore topology-specific logs and problem-specific data (but not `data` utilities)
+**/logs
+**/data
+!/**/utils/data
+
+# ignore PyTorch JIT traces
+**/.libtraces
+
+# ignore built documentation and Jupyter notebook checkpoints/generated figures
+**/docs/_build/*
+**/.ipynb_checkpoints
+**/examples/**/figures
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
