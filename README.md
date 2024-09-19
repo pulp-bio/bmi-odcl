@@ -66,7 +66,7 @@ Install PULP-Trainlib under `BMI-ODCL/On-Device-Implementation/` as indicated in
 ### Datasets
 This work uses two in-house EEG datasets for BMI. The datasets can be downloaded from this link: https://iis-people.ee.ethz.ch/~datasets/Datasets-ODCL/.
 * **Dataset A**: An in-house EEG MM dataset for classifying left hand and right hand movements. This dataset contains seven data sessions from one subject. The stored data files are csv files.
-* **Dataset B**: An in-house EEG MM/MI dataset for classifying left hand, right hand, tongue, and rest. This dataset contains data from five subjects and four sessions for each subject. The stored data files are binary files, which can be converted to csv files with `run_conversion_new.m` from `BMI-ODCL/Preprocessing`. The lists of file paths to be converted can be modified or added in `run_conversion_new.m`. The corresponding csv files will be stored in a newly created folder: `DatasetB/SubjectX_XXXX_SX/MM/csv/`.
+* **Dataset B**: An in-house EEG MM/MI dataset for classifying left hand, right hand, tongue, and rest. This dataset contains data from five subjects and four sessions for each subject. The stored data files are binary files, which can be converted to csv files with `run_conversion.m` from `BMI-ODCL/Preprocessing`. The lists of file paths to be converted can be modified or added in `run_conversion.m`. The corresponding csv files will be stored in a newly created folder: `DatasetB/SubjectX_XXXX_SX/MM/csv/`.
 
 Note that only csv files will be used in classification and the conversion of all files in Dataset B should be treated as a preprocessing step. 
 

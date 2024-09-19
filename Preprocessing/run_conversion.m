@@ -1,5 +1,5 @@
 % 
-% run_conversion_new.m
+% run_conversion.m
 % 
 % Author(s):
 % Victor Kartsch <victor.kartsch@iis.ee.ethz.ch>

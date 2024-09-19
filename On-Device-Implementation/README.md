@@ -42,7 +42,24 @@ To run the on-device learning workflow with LwF, replace `main.c` with `main_LwF
 * Xiaying Wang, ETH Zurich xiaywang@iis.ee.ethz.ch
 
 ## License
-Unless explicitly stated otherwise, the code is released under Apache 2.0. Please see the LICENSE file in the root of this repository for details. Note that the license under which the current repository is released might differ from the license of each individual package:
+Unless explicitly stated otherwise, the code is released under Apache 2.0. Please see the LICENSE file in the root of this repository for details. 
+
+As an exception, the weights:
+* `./Backbone-Example/model.onnx`
+* `./Backbone-Example/hex/*weights.hex`
+* `./Classifier-Example/linear-data.h`
+* `./Classifier-Example/weights_fc.npy` and `./Classifier-Example/bias_fc.npy`
+* `./Classifier-Example-LwF/linear-data.h` 
+* `./Classifier-Example-LwF/weights_fc.npy` and `./Classifier-Example-LwF/bias_fc.npy`
+
+and the inputs:
+* `./Backbone-Example/hex/*inputs.hex`
+* `./Classifier-Example/inputs/`
+* `./Classifier-Example-LwF/inputs/`
+
+are released under Creative Commons Attribution-NoDerivatives 4.0 International. Please see the LICENSE file in their respective directories. 
+
+Note that the license under which the current repository is released might differ from the license of each individual package:
 
 * Avalanche - [MIT License](https://github.com/ContinualAI/avalanche/blob/master/LICENSE);
 * PyTorch - a [mix of licenses](https://github.com/pytorch/pytorch/blob/master/NOTICE), including the Apache 2.0 License and the 3-Clause BSD License;
