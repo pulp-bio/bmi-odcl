@@ -88,6 +88,11 @@ Detailed descriptions and instructions of each component can be found in their r
 * Andrea Cossettini, ETH Zurich cossettini.andrea@iis.ee.ethz.ch
 * Xiaying Wang, ETH Zurich xiaywang@iis.ee.ethz.ch
 
+
+## Acknowledgements
+This work received support from the Swiss National Science Foundation Project 207913 "TinyTrainer: On-chip Training for TinyML devices".
+
+
 ## License
 Unless explicitly stated otherwise, the code is released under Apache 2.0. Please see the LICENSE file in the root of this repository for details. 
 
