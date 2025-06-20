@@ -90,7 +90,7 @@ Detailed descriptions and instructions of each component can be found in their r
 
 
 ## Acknowledgements
-This work received support from the Swiss National Science Foundation Project 207913 "TinyTrainer: On-chip Training for TinyML devices".
+This project was supported by the Swiss National Science Foundation under grant agreement 193813 (Project PEDESITE) and grant agreement 207913 (Project TinyTrainer), by the ETH-Domain Joint Initiative program (project UrbanTwin), and by the ETH Future Computing Laboratory (EFCL).
 
 
 ## License
